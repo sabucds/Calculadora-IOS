@@ -1,0 +1,67 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.screen {
+  color: beige;
+  background-color: black;
+  padding: 20px;
+  text-align: right;
+  width: 400px;
+  border: 1px solid black;
+  margin: 10px 0px 0px 20px;
+  font-size: 40px;
+}
+
+.main-number {
+  font-size: 30px;
+}
+
+.line {
+  display: flex;
+  width: 400px;
+  align-content: stretch;
+  margin: 0px 0px 0px 20px;
+}
+
+.button:last-child {
+  background-color: #ee8e28;
+  color: white;
+}
+
+.button:last-child:hover {
+  background-color: #a77138;
+  color: white;
+}
+
+.c {
+  width: 50%;
+}
+
+.calc {
+  width: 25%;
+}
+
+.zero {
+  width: 75%;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: rgb(231, 231, 231);
+  font-size: 30px;
+}
+.button:hover {
+  background-color: rgb(177, 177, 177);
+}
+
+.button:active {
+  background-color: #4e4e4e;
+}
+
+.button:last-child:active {
+  background-color: #79532b;
+}
